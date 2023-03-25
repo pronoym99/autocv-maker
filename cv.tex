@@ -1,7 +1,7 @@
 %-------------------------
 % Resume in Latex
 % Author : Puneet Gautam, puneet.gautam0206@gmail.com, punitrajgautam@uiit.ac.in
-% License : MIT
+% License: MIT
 %MIT License
 
 %Copyright (c) 2023 Puneet Gautam
@@ -146,14 +146,14 @@
 %-------------------------------------------
 %%%%%%  CV STARTS HERE  %%%%%%%%%%%
 %%%%%% DEFINE ELEMENTS HERE %%%%%%%
-\newcommand{\name}{First Name Last Name} % Your Name
-\newcommand{\course}{Bachelor of Technology} % Your Course
-\newcommand{\roll}{Your Roll No} % Your Roll No.
-\newcommand{\phone}{Your Phone Number} % Your Phone Number
-\newcommand{\email}{your email} %Email 
-\newcommand{\github}{your GitHub link} %Github
+\newcommand{\name}{Pronoy Mandal} % Your Name
+\newcommand{\course}{Masters of Technology} % Your Course
+\newcommand{\phone}{9757197092} % Your Phone Number
+\newcommand{\emaila}{pronoym99@gmail.com} %Email 1
+% \newcommand{\emailb}{pronoym99@gmail.com} %Email 2
+\newcommand{\github}{https://github.com/pronoym99/} %Github
 %\newcommand{\website}{https://www.yourwebsite.com} %Website
-\newcommand{\linkedin}{your linkedIn link} %linkedin
+\newcommand{\linkedin}{https://www.linkedin.com/in/pronoy-mandal/} %linkedin
 
 
 
@@ -161,39 +161,50 @@
 \begin{document}
 \fontfamily{cmr}\selectfont
 %----------HEADING-----------------
-\parbox{2.35cm}{%
+% \parbox{2.35cm}{%
 
-\includegraphics[width=2cm,clip]{logo/logo.png}
+% % \includegraphics[width=2cm,clip]{logo.png}
 
-}\parbox{\dimexpr\linewidth-2.8cm\relax}{
-\begin{tabularx}{\linewidth}{L r}
-  \textbf{\LARGE \name} & +91-\phone\\
+% }
+\begin{center}
+\textbf{\Huge \name} \\
+\textit{Mumbai, India} \\
++91-9757197092 | \href{mailto:\emaila}{\textcolor{blue}{pronoym99@gmail.com}} | \href{https://github.com/\github}{\textcolor{blue}{github.com/pronoym99}} | \href{https://www.linkedin.com/in/\linkedin/}{\textcolor{blue}{linkedin.com/in/pronoy-mandal}}
+
+\end{center}
+
+
+% \parbox{\dimexpr\linewidth-2.8cm\relax}{
+% \begin{tabularx}{\linewidth}{L r}
+%   \textbf{\LARGE \name} & +91-\phone\\
   
-  \course &  \href{mailto:\email}{\email}\\
-   {in Computer Science Engineering} &  \href{https://github.com/\github}{GitHub} \\ %$|$ \href{\website}{Website}\\
-  {University Institute of Technology, HPU, Shimla} & \href{https://www.linkedin.com/in/\linkedin/}{LinkedIn}
-\end{tabularx}
-}
+%   \course &  \href{mailto:\emaila}{\textcolor{blue}{pronoym99@gmail.com}}\\
+%    {in Data Science} &  \href{https://github.com/\github}{\textcolor{blue}{github.com/pronoym99}} \\ %$|$ \href{\website}{Website}\\
+%   {Defence Institute of Advanced Technology, Pune, India} & \href{https://www.linkedin.com/in/\linkedin/}{\textcolor{blue}{linkedin.com/in/pronoy-mandal}}
+% \end{tabularx}
+% }
 
 \vspace{-2mm}
 %-------------SUMMARY-----------------
 \section{\textbf{Summary}}
-This CV is automatically generated and deployed using the \href{https://github.com/kryptoniteX/autocvmkr}{autoCVmkr} template along with GitHub Actions such that a new version of the CV is compiled, published and ready for use when the cv.tex file is updated.
+
+Proactive postgraduate in Data science looking for opportunities to further hone my data analytics and problem-solving skills in an esteemed organisation. I have 1.5 years of experience in using Python and SQL for data analytics, ML and AI-based applications. Skilled at writing technical documentation to supplement my projects.
 %-----------EDUCATION-----------------
 \section{\textbf{Education}}
 \setlength{\tabcolsep}{5pt} % Default value: 6pt
 % \renewcommand{\arraystretch}{1.1} % Default value: 1
 \small{\begin{tabularx}
-{\dimexpr\textwidth-2mm\relax}{|c|C|c|c|c|}
+{\dimexpr\textwidth-2mm\relax}{|c|C|c|c|}
   \hline
-  \textbf{Degree } & \textbf{Institute} & \textbf{Board / University} & \textbf{CGPA/Percentage} & \textbf{Year}\\
+  \textbf{Degree } & \textbf{Institute} & \textbf{Grade} & \textbf{Year}\\
   \hline
-  B.Tech CSE & University Institute of Technology, Shimla & HPU, Shimla & 8.61 (Till 5th Sem) & 2019-2023\\
- 
+  MTech Data Science & Defence Institute of Advanced Technology, Pune & 8.55/10 & 2020-2022\\
   \hline
-  Senior Secondary & School Name & CBSE & 88.88\% & 2018 \\
+  BE Electronics Engineering & Vivekanand Education Society's Institute of Technology, Mumbai & 8.94/10 & 2016-2020\\
   \hline
-  Matriculation & School Name & HPBOSE & 85.57\% & 2016 \\
+  Higher Secondary & Atomic Energy Central School, Mumbai & 88.20\% & 2016 \\
+  \hline
+  Senior Secondary & Atomic Energy Central School, Mumbai & 94.80\% & 2014 \\
   \hline
 \end{tabularx}}
 \vspace{-1mm}
@@ -203,25 +214,32 @@ This CV is automatically generated and deployed using the \href{https://github.c
   \resumeSubHeadingListStart
 
     \resumeSubheading
-      {Company Name}{Location}
-      {Position}{June 2021 - July 2021}
+      {Securities and Exchange Board of India}{Mumbai, India}
+      {Data analyst intern}{Aug'21 - Dec'22}
       \resumeItemListStart
-        \item {About work}
-        \item {About Work}
+        \item Developed a Business NEWS analysis system using OpenCV and YOLO framework
+        \item Deployed the code to a custom environment on a Linux VM
+        \item Collaborated with Clipbyte to streamline video data onto SEBI's internal servers and prepared the dataset for the next generation of the project
       \resumeItemListEnd
     
-%    \vspace{-1mm}
-%    \resumeSubheading
-%      {Company Name}{Location}
-%      {Position}{June 2021 - July 2021}
-%      \resumeItemListStart
-%    \item {About work}
-%    \item {About Work}
-%    \resumeItemListEnd
+   \vspace{-1mm}
+   \resumeSubheading
+     {PyWiz Analytica Pvt. ltd.}{Bangalore, India (Remote)}
+     {Data scientist intern}{June'21 - July'21}
+     \resumeItemListStart
+   \item Developed a Keras-based image classification model to correctly identify cattle breeds on camera
+   \item Developed an SMS-based notification system using Twilio for the movement of cattle among concerned entities. Transactions were entered into and entity data was maintained in an SQL-based DBMS.
+   \resumeItemListEnd
     
     
-    % \item {More work done } .....
-
+   \vspace{-1mm}
+   \resumeSubheading
+     {Bhabha Atomic Research Centre}{Mumbai, India}
+     {Project trainee}{June'19 - July'19}
+     \resumeItemListStart
+    Developed Manual Safety Logic (MSL) interlocks for the fuelling machine head of an Advanced Heavy Water Reactor using VHDL
+   \resumeItemListEnd
+    
     
   
       
@@ -232,27 +250,26 @@ This CV is automatically generated and deployed using the \href{https://github.c
 \resumeSubHeadingListStart
     
     \resumeProject
-      {Project Name} %Project Name
-      {Course or faculty} %Project Name, Location Name
-      {Mar 2021 - Apr 2021} %Event Dates
-      {\href{Github Link}{\textbf{Github}}} %Website
+      {Password generator CLI} %Project Name
+      {Personal} %Project Name, Location Name
+      {Dec'20 - Feb'21} %Event Dates
+      {\href{https://github.com/pronoym99/Password-generator}{\textbf{Github}}} %Website
       \resumeItemListStart
-        \item {About it}
-        \item {About it}
+        \item Python-based CLI tool for quick password generation built using \textit{PyInquirer}
+        \item Supports an array of generation possibilities while being cryptographically secure
       \resumeItemListEnd
     
      \vspace{-1mm}
      
     \resumeProject
-      {Project Name} %Project Name
-      {Course or faculty} %Project Name, Location Name
-      {Mar 2021 - Apr 2021} %Event Dates
-      {\href{Github Link}{\textbf{Github}}} %Website
+      {CNC-based PCB milling machine} %Project Name
+      {Under the guidance of Dr. Asawari Dudwadkar, VESIT, Mumbai} %Project Name, Location Name
+      {July'19 - June'20} %Event Dates
+      {\href{https://github.com/pronoym99/BE-Project-report}{\textbf{Github}}} %Website
       \resumeItemListStart
-        \item {About it}
-        \item {About it}
-      \resumeItemListEnd
-    
+        \item Developed a one-stop PCB milling solution for through-hole PCBs using a custom-made 3-axis CNC 
+        \item Existing tools for G-code and path visualisation were used
+      \resumeItemListEnd   
      
     
    
@@ -263,89 +280,83 @@ This CV is automatically generated and deployed using the \href{https://github.c
 \section{\textbf{Technical Skills}}
  \resumeHeadingSkillStart
   \resumeSubItem{Programming Languages} % Category
-    { C/C++, Python}
+    { Python, MySQL, Bash shell}
     
     %\vspace{-0.5mm}
     
  \resumeSubItem{Tools and Frameworks} % Category
-    {Jupyter, Visual Studio \& Figma} % Skills
+    {OpenCV, PyTorch, Pandas, Scikit-learn, Docker, Azure, HPE Ezmeral, H2O, Git, Deepsource (CI/CD)} % Skills
     
     %\vspace{-0.5mm}
     
- \resumeSubItem{Operating Systems} % Category
-    {Windows, Linux \& Android} % Skills
+ \resumeSubItem{Documentation Systems} % Category
+    {\LaTeX, MkDocs} % Skills
     
     %\vspace{-0.5mm}
     
  
  \resumeHeadingSkillEnd
 
-\vspace{-1.5mm}
-
-\section{\textbf{Key courses taken}}
-\resumeHeadingSkillStart
- \resumeSubItem{CSE \& Maths} % Category
-    {Introduction to C, Fundamentals of Computers, Object Oriented Paradigm in C++, Data Structures and Algorithms, Computer Organization \& Architecture, Python Programming, Operating System, Database Management System, Statistical Methods, Discrete Mathematics, Numerical Methods, Computer Networks \& Security, Software Engineering, Compiler Design, Computer Graphics \& Multimedia}
-    %\vspace{-0.5mm}
- \resumeSubItem{Others}
- {Basic Electronics \& Electrical Engineering, Engineering Drawing, Digital Electronics, Principle of Engineering Economics and Management, Microprocessor: Theory \& Applications}
-%  \resumeSubItem{Electrical and Electronics} % Category
-%     {Advanced Control Systems, Digital Systems, Microprocessors} % Skills
-\resumeHeadingSkillEnd
-
 \vspace{-1mm}
 %---------------CERTIFICATIONS-------------------
-\section{\textbf{Certifications}}
+\section{\textbf{Online training}}
     \resumeItemListStart
-        \item {\href{paste link here}{\textbf{ Certificate Name}}}
-        {Certifying Institution Name} %Certifying Authority
-        \item {\href{paste link here}{\textbf{ Certificate Name}}}
-        {Certifying Institution Name} %Certifying Authority
-        \item {\href{paste link here}{\textbf{ Certificate Name}}}
-        {Certifying Institution Name} %Certifying Authority
+        \item {\href{https://www.hackerrank.com/certificates/5796da4552cb}{\textbf{Problem solving (Intermediate)}}}
+        {Hackerrank} %Certifying Authority
+        \item {\href{https://www.sololearn.com/Certificate/1073-1762287/pdf/}{\textbf{Python 3}}}
+        {Sololearn} %Certifying Authority
+        \item {\href{http://ude.my/UC-8DXX0DJ7}{\textbf{Arduino Discovery: programming the UNO board made simple}}}
+        {Udemy} %Certifying Authority
+        \item {\href{http://nptel.ac.in/noc/social_cert/noc17-cs27/NPTEL17CS27S1540187171010863.jpg}{\textbf{Design and Analysis of Algorithms}}}
+        {NPTEL} %Certifying Authority
     \resumeItemListEnd
 \vspace{-4mm}
 
 %-----------TRAINING-----------------
-\section{\textbf{Vocational Training}}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {Institution Name}{Location}
-      {Course Name}{Start Time-EndTime}
-      \resumeItemListStart
-        \item {About course, blah blah}
-        \item {About course, blah blah}
-      \resumeItemListEnd 
-    \resumeSubHeadingListEnd
+% \section{\textbf{Vocational Training}}
+%   \resumeSubHeadingListStart
+%     \resumeSubheading
+%       {Institution Name}{Location}
+%       {Course Name}{Start Time-EndTime}
+%       \resumeItemListStart
+%         \item {About course, blah blah}
+%         \item {About course, blah blah}
+%       \resumeItemListEnd 
+%     \resumeSubHeadingListEnd
 
 
 \section{\textbf{Positions of Responsibility}}
 \vspace{-0.4mm}
 \resumeSubHeadingListStart
-  \resumePOR{Secretary} % Position
-    {XYZ Club, UIT Shimla} %Club,Event
-    {Apr. 2018 - Apr. 2019} %Tenure Period
-  \resumePOR{Secretary} % Position
-    {XYZ Club, UIT Shimla} %Club,Event
-    {Apr. 2018 - Apr. 2019} %Tenure Period
+  \resumePOR{Deputy head} % Position
+    {Ek Bharat Shreshtha Bharat program, VESIT, Mumbai} %Club, Event
+    {June'20 - Aug'20} %Tenure Period
+  \resumePOR{Technical coordinator} % Position
+    {V-REACH VESIT, Mumbai, India} %Club, Event
+    {June'20 - July'20} %Tenure Period
+  \resumePOR{Student coordinator} % Position
+    {Institution's Innovation Council, VESIT, Mumbai} %Club, Event
+    {Mar'20 - June'20} %Tenure Period
+  \resumePOR{Member} % Position
+    {Tinkerer's lab, Dept. of Electronics Engineering, VESIT, Mumbai} %Club, Event
+    {Apr'18 - Dec'19} %Tenure Period
 \resumeSubHeadingListEnd
 \vspace{-4mm}
 
 
-\section{\textbf{Miscellaneous}}
+\section{\textbf{Awards and achievements}}
 \vspace{-0.1mm}
 \resumeSubHeadingListStart
-\resumePOR{Achievement 1} % Award
-    { About it} % Event
-    {2017} %Event Year
+\resumePOR{GATE} % Award
+    {Secured an All India Rank of \textbf{8551} out of \textbf{83418} candidates appearing for the EC subject} % Event
+    {2020} %Event Year
 \vspace{-0.1mm}
-\resumePOR{Achievement 2} % Award
-    {About it} % Event
-    {2021} %Event Year
+\resumePOR{Weave the Web} % Award
+    {Achieved 2nd position amongst 40+ participating teams in the Praxis'18 VESIT event} % Event
+    {2018} %Event Year
 \vspace{-0.1mm}
 \resumeSubHeadingListEnd
 %-------------------------------------------
 \vfill
-\center{\footnotesize Last updated: \today}
 
 \end{document}
